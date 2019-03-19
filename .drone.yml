@@ -11,6 +11,14 @@ steps:
     password:
       from_secret: docker_password
 
+ - name: slack
+   image: plugins/slack
+   settings:
+     webhook:
+       from_secret: slack_webhook
+     channel: muldavin 
+     image_url: https://unsplash.it/256/256/?random
+
 services: 
 - name: cache
   image: redis
