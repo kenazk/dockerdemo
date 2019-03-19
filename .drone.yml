@@ -15,7 +15,7 @@ steps:
   settings:
     webhook:
       from_secret: slack_webhook
-    channel: muldavin 
+    channel: team-nebula-private  
     image_url: https://unsplash.it/256/256/?random
     template: >
             spamming Nebula channel from Drone
