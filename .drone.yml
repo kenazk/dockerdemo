@@ -10,12 +10,4 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-- name: slack
-  image: plugins/slack
-  settings:
-    webhook:
-      from_secret: slack_webhook
-    channel: team-nebula-private  
-    image_url: https://unsplash.it/256/256/?random
-    template: >
-            Build succeeded from Drone
+- 
