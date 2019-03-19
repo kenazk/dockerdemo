@@ -18,8 +18,4 @@ steps:
     channel: muldavin 
     image_url: https://unsplash.it/256/256/?random
     template: >
-            spamming Noah
-      
-services: 
-- name: cache
-  image: redis
+            spamming Nebula channel from Drone
